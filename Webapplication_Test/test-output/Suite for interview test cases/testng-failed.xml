@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite for interview test cases]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtendReport.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Homepage (failed)">
+    <classes>
+      <class name="com.qa.Testpages.Testhomepage">
+        <methods>
+          <include name="homepagetitleTest"/>
+          <include name="launchbrowser"/>
+          <include name="navigatetomyaccountTest"/>
+          <include name="closebrowser"/>
+          <include name="searchboxTest"/>
+          <include name="guestusertest"/>
+          <include name="logoTest"/>
+        </methods>
+      </class> <!-- com.qa.Testpages.Testhomepage -->
+    </classes>
+  </test> <!-- Homepage (failed) -->
+  <test thread-count="5" name="AccountPage (failed)">
+    <classes>
+      <class name="com.qa.Testpages.TestAccountPage">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="launchbrowser"/>
+          <include name="accountpagetitleTest"/>
+        </methods>
+      </class> <!-- com.qa.Testpages.TestAccountPage -->
+    </classes>
+  </test> <!-- AccountPage (failed) -->
+</suite> <!-- Failed suite [Suite for interview test cases] -->

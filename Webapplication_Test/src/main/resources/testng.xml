@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite for interview test cases">
+
+
+<listeners>
+		<listener class-name="com.qa.ExtendReport.ExtentReporterNG" />
+</listeners>
+
+ <test name="Homepage ">
+  
+   <classes>
+     <class name="com.qa.Testpages.Testhomepage"></class>
+  </classes> 
+  </test>
+  
+  <test name="LoginPage ">
+   <classes>
+     <class name="com.qa.Testpages.TestLoginPage"></class> 
+   </classes>
+ </test> 
+  
+  <test name="AccountPage ">
+   <classes>
+     <class name="com.qa.Testpages.TestAccountPage"></class> 
+   </classes>
+    </test> 
+    <test name="Add address ">
+   <classes>
+     <class name="com.qa.Testpages.Testaddaddress"></class> 
+   </classes>
+ </test> 
+</suite> 
